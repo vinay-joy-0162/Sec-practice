@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+
 
 const News = () => {
   return (
     <div>
-      <h1>News Updates</h1>
+      <h1>News Updates ss</h1>
+
     </div>
   )
 }
 
-export default News
+export default News;

@@ -6,15 +6,29 @@ import News from './Pages/News';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from 'react-bootstrap';
 function App() {
-  return (
-    <div className="App">
-      <Bar /> 
-       <div className="content">
-        <Home/>
-  
+  return ( 
+    <div>
+         <Bar />
+       <Home/>
         <News/>
-        </div>
+
+{/* <Router>
+      <Bar />
+      <Routes>
+        <Route path='/' exact component={Home} />
+        <Route path='/News' component={News} />
+
+      </Routes>
+    </Router> */}
     </div>
+    // <div className="App">
+   
+    //    {/* <div className="content"> */}
+       
+  
+     
+    //     {/* </div>
+    // </div> */}
   );
 }
 

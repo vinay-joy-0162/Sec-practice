@@ -1,29 +1,31 @@
 
 import React, { Component } from "react";
-import {Routes, Route, Link } from 'react-router-dom';
+import {BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import {Navbar, Nav, NavDropdown } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import Home from "./Pages/Home";
 import News from "./Pages/News"
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import editbar from './Styles/editbar.css';
 // import Home from "../src/Pages/Home";
 
 function Bar() {
   return (
+    <BrowserRouter>
     <div>
     <Navbar className="appbar" expand="lg" >
       <Container>
+     
         <Navbar.Brand  href="#home">Security Practices</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home" className="titles">Home</Nav.Link>
+            <Nav.Link as={Link} to="/home">Home</Nav.Link>
             <NavDropdown title="Content" id="basic-nav-dropdown">
-              <NavDropdown.Item  as={Link} to="/News" href="#action/3.1">News</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Blogs</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Podcasts</NavDropdown.Item>
+  
+              <NavDropdown.Item  as={Link} to="/News" >News</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/Blogs" >Blogs</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/Podcasts">Podcasts</NavDropdown.Item>
+            
             </NavDropdown>
             <NavDropdown  title="Resources" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Security Tools</NavDropdown.Item>
@@ -41,17 +43,22 @@ function Bar() {
             <Nav.Link href="#link">Gamification</Nav.Link>
           </Nav>
         </Navbar.Collapse>
+     
       </Container>
     </Navbar>
 
+
     <div>
-      <Routes>
-        <Route exact path='/' element={<Home/>} />
-        <Route exact path='/news' element={<News/>} />
+    <Routes>
+   
+        <Route  path= "/Home"> <Home /> </Route>
+        <Route  path= "/News"> <News /> </Route>
         {/* <Route exact path='/contact' component={Contact} /> */}
-      </Routes>
+  
+</Routes>
     </div>
-    </div>
+        </div>
+    </BrowserRouter>
   );
 }
 
