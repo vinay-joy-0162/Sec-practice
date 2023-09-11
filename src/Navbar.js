@@ -1,33 +1,18 @@
-// import index from './Styles/index.css'
-
-// function Navbar() {
-//     return (         
-//         <>
-//         <nav className="navbar">
-//             <h1 className="navbar h1" align="center">Security Practices</h1>
-//             <a href="/about">About</a>
-//             <a href="/resources">Resources</a>
-//             <a href="/news">News</a>
-//             <a href="/blogs">Blogs</a>
-//             <a href="/games">Gamification</a> 
-
-//         </nav>
-//         </>
-//      );
-// }
- 
-// export default Navbar;
-
 
 import React, { Component } from "react";
+import {Routes, Route, Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
+import Home from "./Pages/Home";
+import News from "./Pages/News"
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import editbar from './Styles/editbar.css';
+// import Home from "../src/Pages/Home";
 
 function Bar() {
   return (
+    <div>
     <Navbar className="appbar" expand="lg" >
       <Container>
         <Navbar.Brand  href="#home">Security Practices</Navbar.Brand>
@@ -35,35 +20,38 @@ function Bar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home" className="titles">Home</Nav.Link>
-            {/*  */}
-            <NavDropdown  title="About" id="basic-nav-dropdown">
-              <NavDropdown.Item  href="#action/3.1">What is security?</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-               Who this website is for?
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+            <NavDropdown title="Content" id="basic-nav-dropdown">
+              <NavDropdown.Item  as={Link} to="/News" href="#action/3.1">News</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">Blogs</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Podcasts</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown  title="Resources" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Security Tools</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
-               Glossary
+               Discussions
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Informational Videos</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">
                 White Papers
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.5">Threats</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.6">Podcasts</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.7">Study Guides</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.7">Discussions</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.6">Study Guides</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.7">Glossary</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#link">News</Nav.Link>
-            <Nav.Link href="#link">Blogs</Nav.Link>
             <Nav.Link href="#link">Gamification</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
+
+    <div>
+      <Routes>
+        <Route exact path='/' element={<Home/>} />
+        <Route exact path='/news' element={<News/>} />
+        {/* <Route exact path='/contact' component={Contact} /> */}
+      </Routes>
+    </div>
+    </div>
   );
 }
 
