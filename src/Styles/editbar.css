@@ -4,9 +4,11 @@
       }
 
 .appbar{
-  background: #faf9f9;
+  background: #7f8182;
   font-weight: bolder;
   font-family: "Quicksand";
+  font-variant: normal;
+  font-size: medium;
 }
 
 

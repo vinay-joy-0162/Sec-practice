@@ -1,0 +1,48 @@
+.heading{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.newsimg{
+    /* margin-top: 2%; */
+    margin-bottom: 5%;
+    margin-left: 40%;
+    margin-right: 10%;
+}
+.googleImage{
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+.securityWeek{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+
+.kerbs{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+.dark{
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}
+.magazine{
+    margin-top: 3%;
+    margin-left: 18%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.zdnet{
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 18% ;
+}

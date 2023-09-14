@@ -1,34 +1,28 @@
-
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+ import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 import Bar from './Navbar';
 import Home from '../src/Pages/Home';
 import News from './Pages/News';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Carousel } from 'react-bootstrap';
+import Blogs from './Pages/Blogs';
+import Podcasts from './Pages/Podcasts';
+
 function App() {
   return ( 
-    <div>
-         <Bar />
-       <Home/>
-        <News/>
+    <div className="App">
+    <Bar />
+      <div className="content">
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/News" element={<News/>}/>
+            <Route path="/Blogs" element={<Blogs/>}/>
+            <Route path="/Podcasts" element={<Podcasts/>}/>
+          </Routes>
 
-{/* <Router>
-      <Bar />
-      <Routes>
-        <Route path='/' exact component={Home} />
-        <Route path='/News' component={News} />
-
-      </Routes>
-    </Router> */}
+        {/* <Home/>
+    
+        <News/> */}
+      </div>
     </div>
-    // <div className="App">
-   
-    //    {/* <div className="content"> */}
-       
-  
-     
-    //     {/* </div>
-    // </div> */}
   );
 }
 
