@@ -75,7 +75,7 @@ const renderCard = (card, index) => {
 };
     return ( 
         <div className="home">
-            <img  className="img1" src="./Images/HomepageImage.jpg" />
+            <img  className="img1" src="./Images/HomepageImage.jpg" height={50} />
             {cardInfo.map(renderCard)}    
           {/* List for types of security practices */}
           <h2 className="head">Best Security Practices</h2>

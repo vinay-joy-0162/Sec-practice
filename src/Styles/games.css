@@ -1,0 +1,135 @@
+.mainPage{
+    background-image: url("../Components/Images/bkgd.jpg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+    /* background-color: aqua; */
+}
+
+.marquee-container{
+    display: flex;
+    align-items: center;
+    /* background-image: url("../Components/Images/gameBkg.jpg"); */
+    overflow: hidden;
+}
+.marquee{
+    /* margin-top: 3.5% ; */
+    font-weight: bolder;
+    text-align: center;
+    font-size: 50px;
+    line-height: 1.3;
+    font-family: sans-serif;
+    padding: 24px 0;
+    color: #24efdee6;
+    white-space: nowrap;
+    animation: marquee 7s infinite linear; /* notice the infinite */
+
+}
+
+/* .marquee:after{
+    content: "Gamezone";
+} */
+
+@keyframes marquee{
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(450%)
+    }
+}
+
+.game1{
+    margin-top: 2%;
+    margin-left: 7%;
+    font-weight: bolder;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.hackthebox{
+    margin-top:2%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 1%;
+}
+
+.box{
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-top: 7%;
+    color: rgba(213, 227, 194, 0.893);
+    font-weight: bold;
+}
+
+.game2{
+    margin-top: 1%;
+    margin-left: 60%;
+    font-weight: bolder;
+    color: aliceblue;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.CTF{
+    color: rgba(213, 227, 194, 0.893);
+    font-weight: bold;
+    margin-top: 6%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.CTFImage{
+    margin-right: 3%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.game3{
+    margin-top: 2%;
+    margin-left: 7%;
+    font-weight: bolder;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.THM{
+    margin-top:2%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 1%;
+}
+
+.THMtext{
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-top: 5%;
+    color: rgba(213, 227, 194, 0.893);
+    font-weight: bold;
+}
+
+.game4{
+    margin-top: 1%;
+    margin-left: 70%;
+    font-weight: bolder;
+    color: aliceblue;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.CSG{
+    margin-top:5%;
+    margin-bottom: 5%;
+    margin-right: 8%;
+    margin-left: 1%;
+    color: rgba(213, 227, 194, 0.893);
+    font-weight: bold;
+}
+
+.CSGGame{
+    margin-right: 3%;
+    margin-left: 12%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}

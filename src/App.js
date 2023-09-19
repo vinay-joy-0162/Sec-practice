@@ -5,6 +5,8 @@ import News from './Pages/News';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Blogs from './Pages/Blogs';
 import Podcasts from './Pages/Podcasts';
+import Gamification from './Pages/Gamification';
+import Resources from './Pages/Resources';
 
 function App() {
   return ( 
@@ -16,6 +18,8 @@ function App() {
             <Route path="/News" element={<News/>}/>
             <Route path="/Blogs" element={<Blogs/>}/>
             <Route path="/Podcasts" element={<Podcasts/>}/>
+            <Route path="/Resources" element={<Resources/>}/>
+            <Route path="/Gamification" element={<Gamification/>}/>
           </Routes>
 
         {/* <Home/>

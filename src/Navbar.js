@@ -13,6 +13,7 @@ function Bar() {
     <div>
     <Navbar className="appbar" expand="lg" >
       <Container>
+
         <Navbar.Brand  href="/">Security Practices</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -23,20 +24,20 @@ function Bar() {
               <NavDropdown.Item as={Link} to="/Blogs">Blogs</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/Podcasts">Podcasts</NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown  title="Resources" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Security Tools</NavDropdown.Item>
+            <Nav.Link href="/Resources">Resources</Nav.Link>
+              {/* <NavDropdown.Item as={Link} to="/Videos">Informational Videos</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                Discussions
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Informational Videos</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Security Tools</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">
                 White Papers
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.5">Threats</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.6">Study Guides</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.7">Glossary</NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#link">Gamification</Nav.Link>
+            </NavDropdown> */}
+            <Nav.Link href="/gamification">Gamification</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

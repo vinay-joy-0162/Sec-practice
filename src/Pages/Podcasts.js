@@ -1,6 +1,5 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
 import podcastStyle from '../Styles/podcastStyle.css';
 
 const Podcasts = () => {
