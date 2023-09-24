@@ -81,7 +81,7 @@ const Resources = () => {
         </Card>
         </CardGroup>
 
-     {/* Resource 3 - Security Certifications
+     {/* Resource 3 - Security Certifications */}
      <h2 className="Resource1">Security Certification Programs</h2>
      <div className="container">
           
@@ -97,18 +97,22 @@ const Resources = () => {
           <div className="img2">
             <Image src="./Images/certification.png" width={400} height={280} />
           </div>
-          </div> */}
+          </div>
       
-    {/* Resource 4 - Glossary
+    {/* Resource 4 - Glossary */}
     <h2 className="Resource1">Glossary</h2>
     <div className="container">
-          <div className="img3">
+          <div className="Res4">
             <Image src="./Images/Glossary.png" width={400} height={280} rounded />
-          </div>     */}
-          
+          </div>    
 
-{/* 
-    </div> */}
+          <div className="Res4P">
+            <p> 
+            A glossary of common security terms and definitions.
+            </p>
+            <a href="https://www.techopedia.com/" target="_blank">Read more</a>
+          </div>
+    </div>
     </div>
   )
 
