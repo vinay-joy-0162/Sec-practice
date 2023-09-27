@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Sec-practices/static/css/main.e39826eb.css",
+    "main.js": "/Sec-practices/static/js/main.b35c1538.js",
+    "index.html": "/Sec-practices/index.html",
+    "main.e39826eb.css.map": "/Sec-practices/static/css/main.e39826eb.css.map",
+    "main.b35c1538.js.map": "/Sec-practices/static/js/main.b35c1538.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e39826eb.css",
+    "static/js/main.b35c1538.js"
+  ]
+}
