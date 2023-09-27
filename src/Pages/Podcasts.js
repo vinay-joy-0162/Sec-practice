@@ -2,17 +2,23 @@ import React from 'react';
 import { Card } from 'react-bootstrap';
 import podcastStyle from '../Styles/podcastStyle.css';
 
+import podcast from './Images/podcasts.jpg';
+import podcast1 from './Images/Podcast1.jpg'; 
+import podcast2 from './Images/cyberWire.png';
+import podcast3 from './Images/Smashing.jpeg';
+import podcast4 from './Images/darknet.png';
+import podcast5 from './Images/maliciousLife.jpg';
 const Podcasts = () => {
   return (
     <div>
          <div className="podcastImage">
-          <img  src="./Images/podcasts.jpg" alt="Podcast image" width={400} height={200} fluid/>
+          <img  src={podcast} alt="Podcast image" width={400} height={200} fluid/>
         </div>
 
     {/* Podcast 1 */}
     <div className="podcast1">
       <Card className="text-center">
-      <Card.Img variant="top" src="./Images/Podcast1.jpg" width={200} height={300} alt="Podcast 1"/>
+      <Card.Img variant="top" src={podcast1} width={200} height={300} alt="Podcast 1"/>
       <Card.Body>
         <Card.Title className="title1">Security Now! by TWiT</Card.Title>
         <Card.Text>
@@ -26,7 +32,7 @@ const Podcasts = () => {
 {/* Podcast 2 */}
 <div className="podcast1">
       <Card className="text-center">
-      <Card.Img variant="top" src="./Images/cyberWire.png" width={200} height={300} alt="Podcast 1"/>
+      <Card.Img variant="top" src={podcast2} width={200} height={300} alt="Podcast 1"/>
       <Card.Body>
         <Card.Title className="title1">The CyberWire</Card.Title>
         <Card.Text>
@@ -41,7 +47,7 @@ const Podcasts = () => {
 {/* Podcast 3 */}
 <div className="podcast1">
       <Card className="text-center">
-      <Card.Img variant="top" src="./Images/Smashing.jpeg" width={200} height={300} alt="Podcast 1"/>
+      <Card.Img variant="top" src={podcast3} width={200} height={300} alt="Podcast 1"/>
       <Card.Body>
         <Card.Title className="title1">Smashing Security</Card.Title>
         <Card.Text>
@@ -55,7 +61,7 @@ const Podcasts = () => {
 {/* Podcast 4 */}
 <div className="podcast1">
       <Card className="text-center">
-      <Card.Img variant="top" src="./Images/darknet.png" width={200} height={300} alt="Podcast 1"/>
+      <Card.Img variant="top" src={podcast4} width={200} height={300} alt="Podcast 1"/>
       <Card.Body>
         <Card.Title className="title1">Darknet Diaries</Card.Title>
         <Card.Text>
@@ -68,7 +74,7 @@ const Podcasts = () => {
 {/* Podcast 5 */}
 <div className="podcast1">
       <Card className="text-center">
-      <Card.Img variant="top" src="./Images/maliciousLife.jpg" width={200} height={300} alt="Podcast 1"/>
+      <Card.Img variant="top" src={podcast5} width={200} height={300} alt="Podcast 1"/>
       <Card.Body>
         <Card.Title className="title1">Malicious Life</Card.Title>
         <Card.Text>

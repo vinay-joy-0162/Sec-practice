@@ -3,7 +3,9 @@ import games from '../Styles/games.css'
 import gameImage from './Images/game.gif'
 import hackTheBoxImage from './Images/hackTheBox.png'
 // import gameImage from './Images/game.gif'
-
+import game2 from './Images/CTF.png';
+import game3 from './Images/rocketman.png'
+import game4 from './Images/cyberstart.png';
 
 const Gamification = () => {
   return (
@@ -39,7 +41,7 @@ const Gamification = () => {
           <a href="https://ctfsites.github.io/" target="_blank">CLICK TO PLAY</a>
           </div>
           <div className="CTFImage">
-          <img src="Images/CTF.png" alt="CTF image" width={280} height={280} rounded />
+          <img src={game2} alt="CTF image" width={280} height={280} rounded />
         </div>
       </div>
       
@@ -48,7 +50,7 @@ const Gamification = () => {
       <div className="container">
 
         <div className="THM">
-          <img src={"Images/rocketman.png"} alt="try hack me" width={280} height={280} rounded />
+          <img src={game3} alt="try hack me" width={280} height={280} rounded />
         </div>
         <div className="THMtext">
         <p>
@@ -68,7 +70,7 @@ const Gamification = () => {
           <a href="https://cyberstart.com/" target="_blank">CLICK TO PLAY</a>
           </div>
           <div className="CSGGame">
-          <img src="./Images/cyberstart.png" alt="CSG image" width={280} height={280} rounded />
+          <img src={game4} alt="CSG image" width={280} height={280} rounded />
         </div>
       </div>
 

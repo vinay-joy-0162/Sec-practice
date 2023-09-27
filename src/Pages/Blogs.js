@@ -1,12 +1,19 @@
 import React from 'react';
 import blogStyle from '../Styles/blogStyle.css';
 import home from '../Styles/home.css';
+
+import Blog from './Images/blog.jpg';
+import Blog1 from './Images/Bruce.jpg';
+import Blog2 from './Images/NakedSecurity1.png';
+import Blog3 from './Images/CyberArkLogo.jpg';
+import Blog4 from './Images/hackerNewsBlog.jpg';
+
 const Blogs = () => {
   return (
     <div>
       {/* <h1> welcome to my security Blogs</h1> */}
       <div className="blogimg">
-          <img  src="./Images/blog.jpg" alt="blogs image" width={500} height={100}/>
+          <img  src={Blog} alt="blogs image" width={500} height={100}/>
         </div>
 
       {/* Blog post 1 */}
@@ -14,7 +21,7 @@ const Blogs = () => {
       <div className="container">
 
         <div className="bruceBlog">
-          <img src="./Images/Bruce.jpg" alt="bruce image" width={280} height={280} rounded />
+          <img src={Blog1} alt="bruce image" width={280} height={280} rounded />
         </div>
         <div className="pBlog">
         <p>
@@ -35,7 +42,7 @@ const Blogs = () => {
           <a href="https://nakedsecurity.sophos.com/" target="_blank">Read more</a>
           </div>
           <div className="sopImgBlog">
-          <img src="./Images/NakedSecurity1.png" alt="sophos image" width={280} height={280} rounded />
+          <img src={Blog2} alt="sophos image" width={280} height={280} rounded />
         </div>
       </div>
 
@@ -44,7 +51,7 @@ const Blogs = () => {
       <div className="container">
 
         <div className="arkBlog">
-          <img src="./Images/CyberArkLogo.jpg" alt="Cyber Ark image" width={280} height={280} rounded />
+          <img src={Blog3} alt="Cyber Ark image" width={280} height={280} rounded />
         </div>
         <div className="pBlog">
         <p>
@@ -64,7 +71,7 @@ const Blogs = () => {
           <a href="https://thehackernews.com/" target="_blank">Read more</a>
           </div>
           <div className="hackImageBlog">
-          <img src="./Images/hackerNewsBlog.jpg" alt="sophos image" width={280} height={280} rounded />
+          <img src={Blog4} alt="sophos image" width={280} height={280} rounded />
         </div>
       </div>
 

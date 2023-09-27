@@ -3,14 +3,21 @@ import { Card } from 'react-bootstrap';
 import { CardGroup } from 'react-bootstrap';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Image from "react-bootstrap/Image";
-
 import assets from '../Styles/assets.css';
 
+import resource from './Images/resources.png';
+import resource1 from './Images/InfoVideo.png';
+import wireshark from './Images/wireshark-1.png';
+import nmap from './Images/nmap.jpg';
+import metasploit from './Images/metasploit.png';
+import burpsuite from './Images/burpsuite.png';
+import resource3 from './Images/certification.png';
+import resource4 from './Images/Glossary.png';
 const Resources = () => {
   return (
     <div>
       <div >
-          <img className="resourceimg" src="./Images/resources.png" alt="blogs image" />
+          <img className="resourceimg" src={resource} alt="blogs image" />
       </div>
 
       {/* Resource 1 - Informational Videos */}
@@ -18,7 +25,7 @@ const Resources = () => {
       <div className="container">
 
         <div className="RImage1">
-          <img src="./Images/InfoVideo.png" alt="bruce image" width={300} height={160} rounded />
+          <img src={resource1} alt="bruce image" width={300} height={160} rounded />
         </div>
         <div className="pRes1">
         <p>
@@ -34,7 +41,7 @@ const Resources = () => {
        {/* tool1 */}
        <CardGroup>
           <Card className="googleImage">
-            <Card.Img variant="top" src="/Images/wireshark-1.png" alt=""/>
+            <Card.Img variant="top" src={wireshark} alt=""/>
             <Card.Body>
               <Card.Title>Wireshark</Card.Title>
               <Card.Text>
@@ -46,7 +53,7 @@ const Resources = () => {
 
         {/* tool 2 */}
           <Card className="securityWeek">
-            <Card.Img variant="top" src="/Images/nmap.jpg" alt=""/>
+            <Card.Img variant="top" src={nmap} alt=""/>
             <Card.Body>
               <Card.Title>Nmap- Network Mapper</Card.Title>
               <Card.Text>
@@ -58,7 +65,7 @@ const Resources = () => {
 
         {/* tool 3 */}
         <Card className="kerbs">
-            <Card.Img variant="top" src="Images/metasploit.png" alt=""/>
+            <Card.Img variant="top" src={metasploit} alt=""/>
             <Card.Body>
               <Card.Title>Metasploit</Card.Title>
               <Card.Text>
@@ -70,7 +77,7 @@ const Resources = () => {
 
         {/* tool4 */}
         <Card className="dark">
-            <Card.Img variant="top" src="Images/burpsuite.png" alt=""/>
+            <Card.Img variant="top" src={burpsuite} alt=""/>
             <Card.Body>
               <Card.Title>Burpsuite</Card.Title>
               <Card.Text>
@@ -95,7 +102,7 @@ const Resources = () => {
           </ListGroup>
           </div>
           <div className="img2">
-            <Image src="./Images/certification.png" width={400} height={280} />
+            <Image src={resource3} width={400} height={280} />
           </div>
           </div>
       
@@ -103,7 +110,7 @@ const Resources = () => {
     <h2 className="Resource1">Glossary</h2>
     <div className="container">
           <div className="Res4">
-            <Image src="./Images/Glossary.png" width={400} height={280} rounded />
+            <Image src={resource4} width={400} height={280} rounded />
           </div>    
 
           <div className="Res4P">
