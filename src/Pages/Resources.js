@@ -58,7 +58,7 @@ const Resources = () => {
 
         {/* tool 3 */}
         <Card className="kerbs">
-            <Card.Img variant="top" src="/Images/metasploit.png" alt=""/>
+            <Card.Img variant="top" src="Images/metasploit.png" alt=""/>
             <Card.Body>
               <Card.Title>Metasploit</Card.Title>
               <Card.Text>
@@ -70,7 +70,7 @@ const Resources = () => {
 
         {/* tool4 */}
         <Card className="dark">
-            <Card.Img variant="top" src="/Images/burpsuite.png" alt=""/>
+            <Card.Img variant="top" src="Images/burpsuite.png" alt=""/>
             <Card.Body>
               <Card.Title>Burpsuite</Card.Title>
               <Card.Text>

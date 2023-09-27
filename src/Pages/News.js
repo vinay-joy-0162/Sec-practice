@@ -2,13 +2,19 @@ import React from 'react';
 import { Card } from "react-bootstrap";
 import { CardGroup } from "react-bootstrap";
 import newsStyle from '../Styles/newsStyle.css';
-
+import NewsImg from './Images/News.jpg'
+import Hackerimg1 from './Images/HackerNews.jpg';
+import Securityweek from './Images/SecurityWeek.jpg';
+import kerbs from './Images/Kerbs.jpg';
+import Darkreading from './Images/DarkReading.jfif';
+import SecMagazine from './Images/SecurityMagazine.jpg';
+import Zdnet from './Images/zdnet.png';
 const News = () => {
   return (
     <div>
       {/* <h3 className="heading">News & Updates </h3> */}
         <div className="newsimg">
-          <img  src="./Images/News.jpg" alt="news image" width={300} height={280}/>
+          <img  src={NewsImg} alt="news image" width={300} height={280}/>
         </div>
        {/* <a href="https://www.securityweek.com/google-patches-chrome-zero-day-reported-by-apple-spyware-hunters/"><img  className="googleImage" src="./Images/googleNews.jpg" alt="news image" width={400} height={280}/></a> */}
         
@@ -16,7 +22,7 @@ const News = () => {
         {/* card 1 */}
        <CardGroup>
           <Card className="googleImage">
-            <Card.Img variant="top" src="/Images/HackerNews.jpg" alt=""/>
+            <Card.Img variant="top" src={Hackerimg1} alt=""/>
             <Card.Body>
               <Card.Title>The Hacker News</Card.Title>
               <Card.Text>
@@ -28,7 +34,7 @@ const News = () => {
         </Card>
 
           <Card className="securityWeek">
-            <Card.Img variant="top" src="/Images/SecurityWeek.jpg" alt=""/>
+            <Card.Img variant="top" src={Securityweek} alt=""/>
             <Card.Body>
               <Card.Title>Cybersecurity News, Insights and Analysis</Card.Title>
               <Card.Text>
@@ -39,7 +45,7 @@ const News = () => {
         </Card>
 
         <Card className="kerbs">
-            <Card.Img variant="top" src="/Images/Kerbs.jpg" alt=""/>
+            <Card.Img variant="top" src= {kerbs} alt=""/>
             <Card.Body>
               <Card.Title>Kerbs on Security</Card.Title>
               <Card.Text>
@@ -49,7 +55,7 @@ const News = () => {
         </Card>
 
         <Card className="dark">
-            <Card.Img variant="top" src="/Images/DarkReading.jfif" alt=""/>
+            <Card.Img variant="top" src= {Darkreading}alt=""/>
             <Card.Body>
               <Card.Title>Dark Reading</Card.Title>
               <Card.Text>
@@ -62,7 +68,7 @@ const News = () => {
 
 <CardGroup>
         <Card className="magazine">
-            <Card.Img variant="top" src="/Images/SecurityMagazine.jpg" alt=""/>
+            <Card.Img variant="top" src= {SecMagazine}alt=""/>
             <Card.Body>
               <Card.Title>Security Magazine</Card.Title>
               <Card.Text>
@@ -73,7 +79,7 @@ const News = () => {
         </Card>
 
         <Card className="zdnet">
-            <Card.Img variant="top" src="/Images/zdnet.png" alt=""/>
+            <Card.Img variant="top" src= {Zdnet} alt=""/>
             <Card.Body>
               <Card.Title>ZDNet Security</Card.Title>
               <Card.Text>

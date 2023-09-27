@@ -1,12 +1,16 @@
 import React from 'react'
 import games from '../Styles/games.css'
+import gameImage from './Images/game.gif'
+import hackTheBoxImage from './Images/hackTheBox.png'
+// import gameImage from './Images/game.gif'
+
 
 const Gamification = () => {
   return (
     <div className="mainPage">
         <div class="marquee-container">
             <div className="marquee">
-            <img src="./Images/game.gif" alt="game icon" width={100} heigth={100} />
+            <img src={gameImage} alt="game icon" width={100} heigth={100} />
              <p>GAMIFICATION</p>
              </div>
         </div>
@@ -16,7 +20,7 @@ const Gamification = () => {
       <div className="container">
 
         <div className="hackthebox">
-          <img src="./Images/hackTheBox.png" alt="GAME 1" width={280} height={280} rounded />
+          <img src={hackTheBoxImage} alt="GAME 1" width={280} height={280} rounded />
         </div>
         <div className="box">
         <p>
@@ -35,7 +39,7 @@ const Gamification = () => {
           <a href="https://ctfsites.github.io/" target="_blank">CLICK TO PLAY</a>
           </div>
           <div className="CTFImage">
-          <img src="./Images/CTF.png" alt="CTF image" width={280} height={280} rounded />
+          <img src="Images/CTF.png" alt="CTF image" width={280} height={280} rounded />
         </div>
       </div>
       
@@ -44,7 +48,7 @@ const Gamification = () => {
       <div className="container">
 
         <div className="THM">
-          <img src="./Images/rocketman.png" alt="try hack me" width={280} height={280} rounded />
+          <img src={"Images/rocketman.png"} alt="try hack me" width={280} height={280} rounded />
         </div>
         <div className="THMtext">
         <p>

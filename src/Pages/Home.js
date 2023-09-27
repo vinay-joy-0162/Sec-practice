@@ -4,6 +4,11 @@ import home from '../Styles/home.css'
 import Image from "react-bootstrap/Image";
 import ListGroup from 'react-bootstrap/ListGroup';
 
+import  secPractise from './Images/SecurityPractice.jpg'; 
+import HomepageImage from "./Images/HomepageImage.jpg";
+import HomepageImage2 from "./Images/SecurityPractice.jpg";
+import BssecurityImg from "./Images/BSPractice.png";
+import Importantimg from "./Images/Importance.jpg";
 const Home = () => {
 const cardInfo = [
     // {image: "./Images/SecurityPractice.jpg", title:"What do you mean by Security Practices?", text:"Seurity Practice Definition"},
@@ -11,7 +16,7 @@ const cardInfo = [
     // {image: "", title:"", text:""},
     <CardGroup className="card">
           <Card >
-            <Card.Img variant="top" src="/Images/SecurityPractice.jpg" alt="" />
+            <Card.Img variant="top" src={secPractise} alt="" />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
               <Card.Text>
@@ -25,13 +30,13 @@ const cardInfo = [
             </Card.Footer>
             </Card>
             </CardGroup>
-]
+];
 
 const renderCard = (card, index) => {
     return (
 <CardGroup>
           <Card className="card">
-            <Card.Img variant="top" src="/Images/SecurityPractice.jpg" alt=""/>
+            <Card.Img variant="top" src={HomepageImage2} alt=""/>
             <Card.Body>
               <Card.Title>What do you mean by security practice?</Card.Title>
               <Card.Text>
@@ -75,7 +80,7 @@ const renderCard = (card, index) => {
 };
     return ( 
         <div className="home">
-            <img  className="img1" src="./Images/HomepageImage.jpg" height={50} />
+            <img  className="img1" src={HomepageImage} height={50} />
             {cardInfo.map(renderCard)}    
           {/* List for types of security practices */}
           <h2 className="head">Best Security Practices</h2>
@@ -93,7 +98,7 @@ const renderCard = (card, index) => {
           </ListGroup>
           </div>
           <div className="img2">
-            <Image src="./Images/BSPractice.png" width={400} height={280} />
+            <Image src={BssecurityImg} width={400} height={280} />
           </div>
           </div>
       
@@ -103,7 +108,7 @@ const renderCard = (card, index) => {
           <div className="container">
 
           <div className="img3">
-            <Image src="./Images/Importance.jpg" width={400} height={280} rounded />
+            <Image src={Importantimg} width={400} height={280} rounded />
           </div>
 
           <div className="SPImportance">
