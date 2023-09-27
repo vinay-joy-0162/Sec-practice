@@ -1,13 +1,44 @@
 {
   "files": {
     "main.css": "/Sec-practices/static/css/main.e39826eb.css",
-    "main.js": "/Sec-practices/static/js/main.b35c1538.js",
+    "main.js": "/Sec-practices/static/js/main.484df0d4.js",
+    "static/media/rocketman.png": "/Sec-practices/static/media/rocketman.430af71a9581de2fb98d.png",
+    "static/media/CTF.png": "/Sec-practices/static/media/CTF.e50d32066efd0d1f3b0b.png",
+    "static/media/Importance.jpg": "/Sec-practices/static/media/Importance.8b4b54a0113fa59cc67d.jpg",
+    "static/media/maliciousLife.jpg": "/Sec-practices/static/media/maliciousLife.9baa3eecdd69951a6f97.jpg",
+    "static/media/SecurityWeek.jpg": "/Sec-practices/static/media/SecurityWeek.33ed91f8dcf6d30379f2.jpg",
+    "static/media/game.gif": "/Sec-practices/static/media/game.d692ebd52e7905659efd.gif",
+    "static/media/certification.png": "/Sec-practices/static/media/certification.0f0c91f5c59574fb2886.png",
+    "static/media/resources.png": "/Sec-practices/static/media/resources.5f1a5e70cf0c06f51676.png",
+    "static/media/HomepageImage.jpg": "/Sec-practices/static/media/HomepageImage.f8ff84605d5100ca6a7d.jpg",
+    "static/media/InfoVideo.png": "/Sec-practices/static/media/InfoVideo.9eb62709b19f57caa3fb.png",
+    "static/media/BSPractice.png": "/Sec-practices/static/media/BSPractice.b95eadd2f5b7eebc84e3.png",
+    "static/media/CyberArkLogo.jpg": "/Sec-practices/static/media/CyberArkLogo.f9d56975ae5d559ec712.jpg",
+    "static/media/News.jpg": "/Sec-practices/static/media/News.03e5b793bec2e3006c35.jpg",
+    "static/media/SecurityMagazine.jpg": "/Sec-practices/static/media/SecurityMagazine.316834036b3f106a7e5f.jpg",
+    "static/media/metasploit.png": "/Sec-practices/static/media/metasploit.99900f68e6f9c6c8bbc1.png",
+    "static/media/blog.jpg": "/Sec-practices/static/media/blog.2d95262dbbc1efbb105d.jpg",
+    "static/media/Podcast1.jpg": "/Sec-practices/static/media/Podcast1.e4ce20c010b845eafc8f.jpg",
+    "static/media/Bruce.jpg": "/Sec-practices/static/media/Bruce.2dd5aaa96b53b38476ac.jpg",
+    "static/media/wireshark-1.png": "/Sec-practices/static/media/wireshark-1.ce9733f9e18d49991d47.png",
+    "static/media/Smashing.jpeg": "/Sec-practices/static/media/Smashing.69ae97fdcbccca9dd1fc.jpeg",
+    "static/media/nmap.jpg": "/Sec-practices/static/media/nmap.17b7707734f16cc5e76c.jpg",
+    "static/media/cyberstart.png": "/Sec-practices/static/media/cyberstart.9956d1aba7b04f7fd019.png",
+    "static/media/burpsuite.png": "/Sec-practices/static/media/burpsuite.c12bbd51dfae66e5eb07.png",
+    "static/media/NakedSecurity1.png": "/Sec-practices/static/media/NakedSecurity1.0a20b31cf0c919a601af.png",
+    "static/media/podcasts.jpg": "/Sec-practices/static/media/podcasts.57bc6f9a1d1b8ae6452c.jpg",
+    "static/media/hackTheBox.png": "/Sec-practices/static/media/hackTheBox.8a3e8baeb2b37fdd8e09.png",
+    "static/media/HackerNews.jpg": "/Sec-practices/static/media/HackerNews.bf608f88c96ee5d022a5.jpg",
+    "static/media/hackerNewsBlog.jpg": "/Sec-practices/static/media/hackerNewsBlog.bf608f88c96ee5d022a5.jpg",
+    "static/media/SecurityPractice.jpg": "/Sec-practices/static/media/SecurityPractice.23dee7de68bcdb682878.jpg",
+    "static/media/Kerbs.jpg": "/Sec-practices/static/media/Kerbs.73997c03303ba8e2b310.jpg",
+    "static/media/DarkReading.jfif": "/Sec-practices/static/media/DarkReading.f091b99c07b484adab13.jfif",
     "index.html": "/Sec-practices/index.html",
     "main.e39826eb.css.map": "/Sec-practices/static/css/main.e39826eb.css.map",
-    "main.b35c1538.js.map": "/Sec-practices/static/js/main.b35c1538.js.map"
+    "main.484df0d4.js.map": "/Sec-practices/static/js/main.484df0d4.js.map"
   },
   "entrypoints": [
     "static/css/main.e39826eb.css",
-    "static/js/main.b35c1538.js"
+    "static/js/main.484df0d4.js"
   ]
 }
