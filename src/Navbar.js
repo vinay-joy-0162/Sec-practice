@@ -14,11 +14,11 @@ function Bar() {
     <Navbar className="appbar" expand="lg" >
       <Container>
 
-        <Navbar.Brand  href="/">Security Practices</Navbar.Brand>
+        <Navbar.Brand  as={Link} to= "/">Security Practices</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/" className="titles">Home</Nav.Link>
+            <Nav.Link  as={Link} to="/" className="titles">Home</Nav.Link>
             <NavDropdown title="Content" id="basic-nav-dropdown">
               <NavDropdown.Item  as={Link} to="/News">News</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/Blogs">Blogs</NavDropdown.Item>
@@ -37,7 +37,7 @@ function Bar() {
               <NavDropdown.Item href="#action/3.6">Study Guides</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.7">Glossary</NavDropdown.Item>
             </NavDropdown> */}
-            <Nav.Link href="/gamification">Gamification</Nav.Link>
+            <Nav.Link as={Link} to="/gamification">Gamification</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
