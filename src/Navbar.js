@@ -23,6 +23,10 @@ function Bar() {
               <NavDropdown.Item  as={Link} to="/News">News</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/Blogs">Blogs</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/Podcasts">Podcasts</NavDropdown.Item>
+              <Nav.Link as={Link} to="/Resources">Resources</Nav.Link>
+              <Nav.Link as={Link} to="/gamification">Gamification</Nav.Link>
+
+
             </NavDropdown>
             <Nav.Link as={Link} to="/Resources">Resources</Nav.Link>
               {/* <NavDropdown.Item as={Link} to="/Videos">Informational Videos</NavDropdown.Item>
