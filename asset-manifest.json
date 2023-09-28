@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Sec-practice/static/css/main.e39826eb.css",
-    "main.js": "/Sec-practice/static/js/main.918006e9.js",
+    "main.js": "/Sec-practice/static/js/main.e0233775.js",
     "static/media/rocketman.png": "/Sec-practice/static/media/rocketman.430af71a9581de2fb98d.png",
     "static/media/CTF.png": "/Sec-practice/static/media/CTF.e50d32066efd0d1f3b0b.png",
     "static/media/Importance.jpg": "/Sec-practice/static/media/Importance.8b4b54a0113fa59cc67d.jpg",
@@ -35,10 +35,10 @@
     "static/media/DarkReading.jfif": "/Sec-practice/static/media/DarkReading.f091b99c07b484adab13.jfif",
     "index.html": "/Sec-practice/index.html",
     "main.e39826eb.css.map": "/Sec-practice/static/css/main.e39826eb.css.map",
-    "main.918006e9.js.map": "/Sec-practice/static/js/main.918006e9.js.map"
+    "main.e0233775.js.map": "/Sec-practice/static/js/main.e0233775.js.map"
   },
   "entrypoints": [
     "static/css/main.e39826eb.css",
-    "static/js/main.918006e9.js"
+    "static/js/main.e0233775.js"
   ]
 }
