@@ -24,7 +24,7 @@ function Bar() {
               <NavDropdown.Item as={Link} to="/Blogs">Blogs</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/Podcasts">Podcasts</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/Resources">Resources</Nav.Link>
+            <Nav.Link as={Link} to="/Resources">Resources</Nav.Link>
               {/* <NavDropdown.Item as={Link} to="/Videos">Informational Videos</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                Discussions
